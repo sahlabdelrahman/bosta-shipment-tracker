@@ -1,5 +1,6 @@
 {
-    "name": "tracking-service",
+    "name": "bosta-shipment-tracker",
+    "homepage": "https://sahlabdelrahman.github.io/bosta-shipment-tracker",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
