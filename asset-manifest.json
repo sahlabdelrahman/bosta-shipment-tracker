@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/bosta-shipment-tracker/static/css/main.d6974bbd.css",
-    "main.js": "/bosta-shipment-tracker/static/js/main.5bb6b112.js",
+    "main.js": "/bosta-shipment-tracker/static/js/main.efa1a0cb.js",
     "static/css/397.b22152b1.chunk.css": "/bosta-shipment-tracker/static/css/397.b22152b1.chunk.css",
     "static/js/397.60096eab.chunk.js": "/bosta-shipment-tracker/static/js/397.60096eab.chunk.js",
     "index.html": "/bosta-shipment-tracker/index.html",
     "static/media/getFetch.cjs": "/bosta-shipment-tracker/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.d6974bbd.css.map": "/bosta-shipment-tracker/static/css/main.d6974bbd.css.map",
-    "main.5bb6b112.js.map": "/bosta-shipment-tracker/static/js/main.5bb6b112.js.map",
+    "main.efa1a0cb.js.map": "/bosta-shipment-tracker/static/js/main.efa1a0cb.js.map",
     "397.b22152b1.chunk.css.map": "/bosta-shipment-tracker/static/css/397.b22152b1.chunk.css.map",
     "397.60096eab.chunk.js.map": "/bosta-shipment-tracker/static/js/397.60096eab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6974bbd.css",
-    "static/js/main.5bb6b112.js"
+    "static/js/main.efa1a0cb.js"
   ]
 }
