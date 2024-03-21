@@ -1,0 +1,13 @@
+@import "Styles/style.scss";
+
+.shipmentDetails {
+    display: flex;
+    gap: 20px;
+    .addressSection {
+        flex: 0.3;
+    }
+
+    @include responsive("md") {
+        flex-direction: column;
+    }
+}

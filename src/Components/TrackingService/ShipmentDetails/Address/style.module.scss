@@ -1,0 +1,67 @@
+@import "Styles/style.scss";
+
+.address {
+    width: 100%;
+    @extend %flex-column;
+    gap: 20px;
+
+    .title {
+        color: $textColor;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+
+    .content {
+        @extend %flex-column;
+        gap: 10px;
+        .addressDetails {
+            padding: 20px;
+            background-color: $grayBackgroundColor;
+            border: 1.5px solid $borderColor;
+            border-radius: 10px;
+            .addressText {
+                color: $textColor;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0;
+            }
+        }
+
+        .reportProblem {
+            @extend %flex-between;
+            gap: 20px;
+            padding: 20px;
+            border: 1.5px solid $borderColor;
+            border-radius: 10px;
+
+            .imageContainer {
+                flex: 0.3;
+                @extend %flex-center;
+            }
+
+            .reportProblemContent {
+                flex: 0.7;
+                p {
+                    color: $textColor;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0;
+                    margin-bottom: 16px;
+                }
+
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: $redColor;
+                    color: $lightColor;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

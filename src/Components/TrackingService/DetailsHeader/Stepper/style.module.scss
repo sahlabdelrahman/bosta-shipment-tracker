@@ -1,0 +1,45 @@
+@import "Styles/style.scss";
+
+.stepper {
+    position: relative;
+    @extend %flex-between;
+    .step {
+        @extend %flex-column;
+        align-items: center;
+        .stepNumber {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px;
+            z-index: 2;
+        }
+
+        .stepName {
+            color: $textColor;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0;
+        }
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 25%;
+        inset-inline-start: 0;
+        height: 4px;
+        background-color: #eee;
+        .progress {
+            height: 100%;
+        }
+    }
+
+    @include responsive("sm") {
+        .progressBar {
+            top: 18%;
+        }
+    }
+}

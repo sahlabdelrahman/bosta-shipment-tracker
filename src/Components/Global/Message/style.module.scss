@@ -1,0 +1,13 @@
+@import "Styles/style.scss";
+
+.message {
+    @extend %flex-center;
+
+    .text {
+        color: $redColor;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "document": {
+        "title": "تتبع شحنة بوسطة | تتبع الشحنات | بوسطة مصر",
+        "description": "استمتع بتجربة شحن فريدة وتتبع شحنة بوسطة مصر بسهولة عبر زيارة صفحة تتبع الشحنات للمتابعة في الوقت الحالي. زور موقعنا الآن لمعرفة المزيد من التفاصيل."
+    },
+    "header": {
+        "pages": {
+            "home": "الرئيسية",
+            "pricing": "الاسعار",
+            "callSales": "كلم المبيعات"
+        },
+        "actions": {
+            "trackShipment": "تتبع شحنتك",
+            "trackYourShipment": "تتبع شحنتك",
+            "trackingNo": "رقم التتبع",
+            "signIn": "تسجيل الدخول"
+        }
+    },
+    "time": {
+        "dayNames": [
+            "الأحد",
+            "الاثنين",
+            "الثلاثاء",
+            "الأربعاء",
+            "الخميس",
+            "الجمعة",
+            "السبت"
+        ],
+        "monthNames": [
+            "يناير",
+            "فبراير",
+            "مارس",
+            "أبريل",
+            "مايو",
+            "يونيو",
+            "يوليو",
+            "أغسطس",
+            "سبتمبر",
+            "أكتوبر",
+            "نوفمبر",
+            "ديسمبر"
+        ],
+        "am": "صباحًا",
+        "pm": "مساءً"
+    },
+    "trackingService": {
+        "enterTrackingNo": "من فضلك ادخل رقم التتبع.",
+        "statues": {
+            "delivered": "تم تسليم الشحنة",
+            "notDelivered": "لم يتم تسليم الشحنة",
+            "cancelled": "تم الغاء الشحنة"
+        },
+        "trackOrder": {
+            "title": "تتبع طلبك",
+            "description": "جميع تحديثات الطلب ستكون متاحة من خلال هذا الرابط",
+            "placeholder": "رقم التتبع"
+        },
+        "detailsHeader": {
+            "shipmentNumber": "رقم الشحنة",
+            "lastUpdate": "اخر تحديث",
+            "merchantName": "اسم التاجر",
+            "deliveryTimeWithin": "موعد التسلم خلال",
+            "stepper": {
+                "shipmentCreated": "تم انشاء الشحنة",
+                "shipmentReceived": "تم استلام الشحنة من التاجر",
+                "shipmentOutForDelivery": "الشحنة خرجت للتسليم",
+                "shipmentDelivered": "تم التسليم"
+            }
+        },
+        "shipmentDetails": {
+            "details": {
+                "title": "تفاصيل الشحنة",
+                "data": {
+                    "branch": "الفرع",
+                    "date": "التاريخ",
+                    "time": "الوقت",
+                    "details": "تفاصيل",
+                    "noDetails": "لا توجد تفاصيل."
+                }
+            },
+            "address": {
+                "image": "صورة",
+                "title": "عنوان التسليم",
+                "notProvided": "العنوان غير متوفر"
+            },
+            "reportProblem": {
+                "title": "هل يوجد مشكلة في شحنتك؟",
+                "buttonText": "ابلاغ عن مشكلة"
+            }
+        }
+    }
+}

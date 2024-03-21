@@ -1,0 +1,92 @@
+{
+    "document": {
+        "title": "Fastest Courier & Shipping Services | Bosta Egypt",
+        "description": "Explore Bosta's local courier services in Egypt & enjoy real-time tracking & customization for your business needs. Ship now with a trusted shipping company!"
+    },
+    "header": {
+        "pages": {
+            "home": "Home",
+            "pricing": "Pricing",
+            "callSales": "Call sales"
+        },
+        "actions": {
+            "trackShipment": "Track Shipment",
+            "trackYourShipment": "Track your shipment",
+            "trackingNo": "Tracking No",
+            "signIn": "Sign In"
+        }
+    },
+    "time": {
+        "dayNames": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "monthNames": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "am": "am",
+        "pm": "pm"
+    },
+    "trackingService": {
+        "enterTrackingNo": "Please enter your tracking number.",
+        "statues": {
+            "delivered": "Shipment delivered",
+            "notDelivered": "Shipment not delivered",
+            "cancelled": "Shipment cancelled"
+        },
+        "trackOrder": {
+            "title": "Track your Order",
+            "description": "All order updates will be available through this link.",
+            "placeholder": "Tracking No"
+        },
+        "detailsHeader": {
+            "shipmentNumber": "Shipment Number",
+            "lastUpdate": "Last Update",
+            "merchantName": "Merchant Name",
+            "deliveryTimeWithin": "Delivery Time within",
+            "stepper": {
+                "shipmentCreated": "Shipment Created",
+                "shipmentReceived": "Shipment Received",
+                "shipmentOutForDelivery": "Shipment Out For Delivery",
+                "shipmentDelivered": "Shipment Delivered"
+            }
+        },
+        "shipmentDetails": {
+            "details": {
+                "title": "Shipment Details",
+                "data": {
+                    "branch": "Branch",
+                    "date": "Date",
+                    "time": "Time",
+                    "details": "Details",
+                    "noDetails": "There are no details."
+                }
+            },
+            "address": {
+                "image": "Image",
+                "title": "Delivery address",
+                "notProvided": "Address not provided"
+            },
+            "reportProblem": {
+                "title": "Is there a problem with your shipment?!",
+                "buttonText": "Report a problem"
+            }
+        }
+    }
+}
