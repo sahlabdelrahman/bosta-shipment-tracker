@@ -27,6 +27,9 @@ const SideMenu = ({ showSideMenu, language, handleChangeLanguage }) => {
                         href={signIn?.path}
                         aria-label={signIn?.text}
                         title={signIn?.text}
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
                     >
                         {signIn?.text}
                     </a>

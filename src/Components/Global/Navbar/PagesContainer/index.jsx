@@ -13,7 +13,14 @@ const PagesContainer = ({ insideSideMenu, handleChangeLanguage, language }) => {
         >
             {pages?.map(({ id, path, text }) => (
                 <li key={id}>
-                    <a href={path} aria-label={text} title={text}>
+                    <a
+                        href={path}
+                        aria-label={text}
+                        title={text}
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
+                    >
                         {text}
                     </a>
                 </li>

@@ -27,6 +27,9 @@ const ActionsContainer = ({
                     href={signIn?.path}
                     aria-label={signIn?.text}
                     title={signIn?.text}
+                    onClick={(e) => {
+                        e.preventDefault();
+                    }}
                 >
                     {signIn?.text}
                 </a>
@@ -64,6 +67,9 @@ const Navbar = ({
                     className={styles.logo}
                     aria-label="Navigate to the home page"
                     title="Navigate to the home page"
+                    onClick={(e) => {
+                        e.preventDefault();
+                    }}
                 >
                     {logo}
                 </a>
